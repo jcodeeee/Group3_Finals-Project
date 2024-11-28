@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: 
+        linear-gradient(to top right, #8b0000 50%, transparent 50%),
+        linear-gradient(to top left, #1a1a1a 50%, #d3d3d3 50%);
+        font-family: Arial, sans-serif;
+    background-color: #000;
+    
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: linear-gradient(to right, #8b0000, #b30000);
+    height: 60px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Logo Styling */
+.logo img {
+    height: 50px;
+}
+
+/* Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    position: relative;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d3d3d3;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    height: 120px;
+    width: 150px;
+    
+}
+
+.dropdown-menu li {
+    margin: 5px 0;
+    margin-left: 20px;
+    list-style: none;
+}
+
+.dropdown-menu a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Show Dropdown on Hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .auth-buttons a{
+    text-decoration: none;
+    color: white
+  }
+  .auth-buttons a:hover{
+    color: black;
+  }
+
+.login-btn,
+.register-btn {
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-btn:hover,
+.register-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+.container1{
+      
+  width: 350px;
+  height: 500px;
+  background: rgba(243, 4, 4, 0.443);
+  padding: 20px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgba(27, 27, 27, 0.605);
+  border-radius: 50px;
+  justify-content: left;
+    
+  margin-left: 700px;
+  margin-top: 130px;
+  
+}
+.Login2{
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: judson;
+    letter-spacing: 5px;
+    margin-left: 88px;
+    
+    padding-top: 20px;
+}
+
+.username2{
+    margin-top: 45px;
+    width: 250px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 45px;
+}
+.username3{
+    margin-top: 60px;
+    width: 250px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 15px;
+    margin-left: 45px;
+}
+.forgotpassword{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin-top: 120px;
+    margin-left: 20px;
+    
+}
+.forgotpassword1{
+    margin-top: 100px;
+    margin-left: 50px;
+
+}
+.forgot_label{
+    margin-top: 15px;
+}
+.login_button{
+    font: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    margin-left: 115px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+.login_button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+

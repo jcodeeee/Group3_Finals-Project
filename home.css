@@ -1,0 +1,139 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8b0000;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-buttons button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.auth-buttons button:hover {
+    background-color: #333;
+}
+
+/* Promo Container */
+.promo-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Left Section (Red Triangle and Text) */
+.left-section {
+    flex: 1;
+    padding: 40px;
+    background-color: #8b0000;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 80% 100%, 0% 100%);
+}
+
+.left-section h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.features {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.features li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.about-btn {
+    padding: 10px 20px;
+    background-color: #d3d3d3;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: #c0c0c0;
+}
+
+/* Image Section */
+.image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.image-section img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    filter: brightness(0.9);
+    transition: transform 0.3s ease;
+}
+
+/* Hover Effect on Image */
+.image-section img:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .promo-container {
+        flex-direction: column;
+    }
+
+    .left-section {
+        clip-path: none;
+        padding: 20px;
+    }
+}
